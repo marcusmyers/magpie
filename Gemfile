@@ -36,3 +36,16 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+group :test, :development do
+    gem 'minitest-rails'
+end
+
+group :development do
+    gem 'better_errors'
+    gem 'meta_request'
+end
+
+group :test do
+    gem 'minitest-rails-capybara'
+end
