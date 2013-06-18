@@ -39,13 +39,16 @@ gem 'jquery-rails'
 
 group :test, :development do
     gem 'minitest-rails'
+    gem 'factory_girl_rails'
 end
 
 group :development do
     gem 'better_errors'
+    gem 'binding_of_caller'
     gem 'meta_request'
 end
 
 group :test do
     gem 'minitest-rails-capybara'
 end
+
